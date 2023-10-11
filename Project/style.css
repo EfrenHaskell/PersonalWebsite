@@ -8,6 +8,7 @@ header {
     right:0;
 }
 
+
 header a {
     color:black;
 }
@@ -106,7 +107,7 @@ header img {
     float:left;
     padding:0px 0px;
     height:60mm;
-    width:46mm;
+    width:24%;
 }
 
 #about:hover {
@@ -119,4 +120,24 @@ header img {
 
 .rightContent {
     float:right;
+}
+
+#display{
+    width: 100%;
+    position:absolute;
+    left:0;
+    right:0;
+    padding-top: 60mm;
+    padding-bottom: 60mm;
+    background-size:cover;
+}
+
+#display img {
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+#display h2 {
+    color: white;
+    text-align: center;
 }
